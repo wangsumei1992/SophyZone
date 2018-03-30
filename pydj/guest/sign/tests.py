@@ -14,7 +14,7 @@ class ModelTest(TestCase):
         Guest.objects.create(id=1,event_id=1,realname='sophy',
                              phone='15810107600',email='sophy@mail.com',sign=False)
 
-    def test_event_models(self):
+    def test_event_models1(self):
         result = Event.objects.get(name="oneplus 3 event")
         self.assertEqual(result.address, 'beijing')
         self.assertTrue(result.status)
