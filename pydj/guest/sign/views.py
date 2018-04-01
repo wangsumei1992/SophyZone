@@ -10,14 +10,14 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 def index(request):
 	#return HttpResponse("<html><h1>hello django!</h1></html>")
 	return render(request,"index.html")
-	print index.html
+	print (index.html)
 def login_action(request):
-	print request.method
+	print (request.method)
 	if request.method == "POST":
 		page_username = request.POST.get("username"," ")
 		page_password = request.POST.get("password"," ")
-		print page_username
-		print page_password
+		print (page_username)
+		print (page_password)
 		user = auth.authenticate(username=page_username, password=page_password)
 		#if username == 'admin' and password == '123456':
 		#response = HttpResponseRedirect('/event_manage/')
@@ -83,7 +83,7 @@ def sign_index(request,event_id):
 def sign_index_action(request,event_id):
 	event = get_object_or_404(Event, id=event_id)
 	phone = request.POST.get('phone','')
-	print phone
+	print (phone)
 
 	if phone is '':
 		return render(request, 'sign_index.html', {'hint': '手机号不能为空'})

@@ -105,9 +105,11 @@ class GuestManageTest(TestCase):
 
     def test_guest_manage_success(self):
         '''测试嘉宾信息'''
-        response = self.c.post('/login_action', data=self.login_user)
+        self.c.post('/login_action/', data=self.login_user)
         response = self.c.post('/guest_manage/')
-        self.assertEqual(response.status_code, 302)
+        print(response.status_code)
+        print(response.content)
+        self.assertEqual(response.status_code, 200)
         #self.assertIn(b"alen", response.content)
         self.assertIn(b"18611001100", response.content)
 
