@@ -14,7 +14,7 @@ class ModelTest(TestCase):
         Guest.objects.create(id=1,event_id=1,realname='sophy',
                              phone='15810107600',email='sophy@mail.com',sign=False)
 
-    def test_event_models1(self):
+    def test_event_models(self):
         result = Event.objects.get(name="oneplus 3 event")
         self.assertEqual(result.address, 'beijing')
         self.assertTrue(result.status)
@@ -105,10 +105,8 @@ class GuestManageTest(TestCase):
 
     def test_guest_manage_success(self):
         '''测试嘉宾信息'''
-        self.c.post('/login_action/', data=self.login_user)
+        response = self.c.post('/login_action/', data=self.login_user)
         response = self.c.post('/guest_manage/')
-        print(response.status_code)
-        print(response.content)
         self.assertEqual(response.status_code, 200)
         #self.assertIn(b"alen", response.content)
         self.assertIn(b"18611001100", response.content)
