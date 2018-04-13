@@ -4,7 +4,7 @@ import configparser as cparser
 
 #======== Reading db_config.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(__file__)))
-base_dir = base_dir.replace('\\', '/')
+#base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/db_config.ini"
 
 cf = cparser.ConfigParser()
@@ -64,6 +64,7 @@ if __main__ == '__main__':
     db.clear(table_name)
     db.insert(table_name, data)
     db.close()
+
 
 
 
