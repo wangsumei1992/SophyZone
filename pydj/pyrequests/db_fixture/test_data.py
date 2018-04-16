@@ -13,7 +13,7 @@ datas = {
     ],
     'sign_guest':[
         {'id':1,'realname':'sgirl','phone':15811507610,'email':'silygirl@mail.com','sign':0,'event_id':1},
-        {'id':2,'realname':'tom','phone':15811507611,'email':'tom@mail.com','sign':0,'event_id':1},
+        {'id':2,'realname':'tom','phone':15811507611,'email':'tom@mail.com','sign':1,'event_id':1},
         {'id':3,'realname':'jim','phone':15811507612,'email':'jim@mail.com','sign':0,'event_id':5},
     ],
 }

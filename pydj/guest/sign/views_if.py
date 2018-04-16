@@ -3,7 +3,7 @@ from django.http import JsonResponse
 from sign.models import Event, Guest
 from django.core.exceptions import ValidationError, ObjectDoesNotExist
 from django.db.utils import IntegrityError
-from datetime import datetime
+import time
 
 #添加发布会接口
 def add_event(request):
@@ -100,8 +100,16 @@ def add_guest(request):
         return JsonResponse({'status':10024,'message':'event number is full'})
 
     event_time = Event.objects.get(id=eid).start_time #发布会时间
-    e_time = event_time.timestamp()
-    n_time = datetime.now().timestamp() #当前时间
+    print(event_time)
+    timeArray = time.strptime(str(event_time), "%Y-%m-%d %H:%M:%S")
+    print(timeArray)
+    e_time = int(time.mktime(timeArray))
+    print(e_time)
+
+    now_time = str(time.time()) #当前时间
+    ntime = now_time.split(".")[0]
+    n_time = int(ntime)
+    print(n_time)
 
     if n_time >= e_time:
         return JsonResponse({'status':10025,'message':'event has started'})
@@ -131,15 +139,13 @@ def user_sign(request):
         return JsonResponse({'status':10023,'message':'event status is not available'})
 
     event_time = Event.objects.get(id=eid).start_time #发布会时间
-    e_time = event_time.timestamp()
-    n_time = datetime.now().timestamp()  # 当前时间
-    # etime = str(event_time).split(".")[0]
-    # timeArray = time.strptime(etime, "%Y-%m-%d %H:%M:%S")
-    # e_time = int(time.mktime(timeArray))
-    #
-    # now_time = str(time.time()) #当前时间
-    # ntime = now_time.split(".")[0]
-    # n_time = int(ntime)
+    etime = str(event_time).split(".")[0]
+    timeArray = time.strptime(etime, "%Y-%m-%d %H:%M:%S")
+    e_time = int(time.mktime(timeArray))
+
+    now_time = str(time.time()) #当前时间
+    ntime = now_time.split(".")[0]
+    n_time = int(ntime)
 
     if n_time >= e_time:
         return JsonResponse({'status':10024,'message':'event has started'})
