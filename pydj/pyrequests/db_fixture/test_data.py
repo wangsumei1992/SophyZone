@@ -1,5 +1,9 @@
 import sys
+<<<<<<< HEAD
 sys.path.append('./db_fixture')
+=======
+sys.path.append('F:\python01\pydj\pyrequests\db_fixture')
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
 from mysql_db import DB
 
 #create data

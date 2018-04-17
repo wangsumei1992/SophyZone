@@ -21,11 +21,29 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="mysql_db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyrequests/db_fixture/mysql_db.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="783">
               <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+=======
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guest/guest/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3078">
+              <caret line="114" column="1" lean-forward="false" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql_db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyrequests/db_fixture/mysql_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -33,26 +51,43 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="db_config.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyrequests/db_config.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="9" />
+=======
+      <file leaf-file-name="test_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyrequests/db_fixture/test_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="31" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="run_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyrequests/run_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
               <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pyrequests/HTMLTestRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest/sign/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,18 +95,32 @@
               <caret line="88" column="61" lean-forward="false" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
               <folding>
                 <element signature="e#14#69#0" expanded="true" />
+=======
+      <file leaf-file-name="add_event_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyrequests/interface/add_event_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guest/sign/models.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guest/sign/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="486">
               <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+=======
+            <state relative-caret-position="405">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
               <folding>
-                <element signature="e#14#53#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +129,13 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest/sign/tests.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1087">
               <caret line="143" column="55" lean-forward="false" selection-start-line="143" selection-start-column="55" selection-end-line="143" selection-end-column="55" />
+=======
+            <state relative-caret-position="358">
+              <caret line="88" column="61" lean-forward="false" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
               <folding>
                 <element signature="e#14#46#0" expanded="true" />
               </folding>
@@ -89,6 +143,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest/sign/admin.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,6 +162,14 @@
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="count.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_demo/count.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
             </state>
           </provider>
         </entry>
@@ -114,7 +177,11 @@
       <file leaf-file-name="views_if.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest/sign/views_if.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-2349">
+=======
+            <state relative-caret-position="648">
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
               <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="67" />
               <folding>
                 <element signature="e#14#50#0" expanded="true" />
@@ -154,11 +221,17 @@
         <option value="$PROJECT_DIR$/guest/sign/urls.py" />
         <option value="$PROJECT_DIR$/guest/sign/views_if.py" />
         <option value="$PROJECT_DIR$/guest/guest/settings.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pyrequests/interface/add_event_test.py" />
         <option value="$PROJECT_DIR$/pyrequests/db_fixture/test_data.py" />
         <option value="$PROJECT_DIR$/pyrequests/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/pyrequests/run_tests.py" />
         <option value="$PROJECT_DIR$/pyrequests/db_fixture/mysql_db.py" />
+=======
+        <option value="$PROJECT_DIR$/pyrequests/db_fixture/mysql_db.py" />
+        <option value="$PROJECT_DIR$/pyrequests/db_fixture/test_data.py" />
+        <option value="$PROJECT_DIR$/pyrequests/interface/add_event_test.py" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
       </list>
     </option>
   </component>
@@ -203,8 +276,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,13 +297,18 @@
               <item name="pydj" type="b2602c69:ProjectViewProjectNode" />
               <item name="pydj" type="462c0819:PsiDirectoryNode" />
               <item name="guest" type="462c0819:PsiDirectoryNode" />
-              <item name="guest" type="462c0819:PsiDirectoryNode" />
+              <item name="sign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pydj" type="b2602c69:ProjectViewProjectNode" />
               <item name="pydj" type="462c0819:PsiDirectoryNode" />
-              <item name="guest" type="462c0819:PsiDirectoryNode" />
-              <item name="sign" type="462c0819:PsiDirectoryNode" />
+              <item name="pyrequests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pydj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pydj" type="462c0819:PsiDirectoryNode" />
+              <item name="pyrequests" type="462c0819:PsiDirectoryNode" />
+              <item name="db_fixture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pydj" type="b2602c69:ProjectViewProjectNode" />
@@ -253,6 +334,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,6 +538,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/guest/sign/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest/sign/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
     <entry file="file://$PROJECT_DIR$/guest/guest/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -676,6 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -683,19 +787,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+=======
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_demo/test_count.py">
+    <entry file="file://$PROJECT_DIR$/guest/sign/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="486">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <element signature="e#14#39#0" expanded="true" />
+            <element signature="e#14#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test_demo/count.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -705,6 +812,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyrequests/interface/add_event_test.py">
+=======
+    <entry file="file://$PROJECT_DIR$/guest/sign/tests.py">
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1593">
           <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
@@ -716,6 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyrequests/db_fixture/test_data.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="54">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
@@ -726,12 +837,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20358">
           <caret line="802" column="39" lean-forward="true" selection-start-line="802" selection-start-column="39" selection-end-line="802" selection-end-column="39" />
+=======
+        <state relative-caret-position="864">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
           <folding>
             <element signature="e#3215#3230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pyrequests/run_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -764,13 +880,33 @@
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/guest/guest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="114" column="1" lean-forward="false" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyrequests/db_fixture/mysql_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guest/sign/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-54">
+=======
+        <state relative-caret-position="358">
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
           <caret line="88" column="61" lean-forward="false" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
           <folding>
             <element signature="e#14#69#0" expanded="true" />
@@ -778,6 +914,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/guest/sign/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -790,16 +927,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/test_demo/test_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest/sign/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/guest/sign/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1087">
           <caret line="143" column="55" lean-forward="false" selection-start-line="143" selection-start-column="55" selection-end-line="143" selection-end-column="55" />
+=======
+    <entry file="file://$PROJECT_DIR$/test_demo/count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest/sign/views_if.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="67" />
+>>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
           <folding>
             <element signature="e#14#46#0" expanded="true" />
           </folding>
@@ -821,6 +989,32 @@
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyrequests/interface/add_event_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyrequests/db_fixture/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyrequests/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
