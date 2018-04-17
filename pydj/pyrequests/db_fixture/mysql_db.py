@@ -1,6 +1,7 @@
 import pymysql.cursors
 import os
-import ConfigParser as cparser
+#import ConfigParser as cparser
+import configparser as cparser
 
 #======== Reading db_config.ini setting ===========
 '''
@@ -25,8 +26,8 @@ class DB(object):
             #connect to the database
             self.connection = pymysql.connect(host='127.0.0.1',
                                               user='root',
-                                              password='12345678',
-                                              db='pyguest',
+                                              password='',
+                                               db='guest',
                                               port=3306,
                                               charset='utf8mb4',
                                               cursorclass=pymysql.cursors.DictCursor)
@@ -52,19 +53,19 @@ class DB(object):
 
         self.connection.commit()
 
-        def close(self):
-            self.connection.close()
+    def close(self):
+        self.connection.close()
 
 if __name__ == '__main__':
 
     db = DB()
     table_name = "sign_event"
-    data = {'id':1,'name':'xiaomi','limit':2000,'status':1,'address':'beijing','start_time':'2018-04-30 12:30:00'}
+    data = {'id':1,'name':'xiaomi','`limit`':2000,'status':1,'address':'beijing','start_time':'2018-04-30 12:30:00'}
     table_name2 = "sign_guest"
     data2 = {'realname':'wangsumei','phone':12121212123,'email':'wangsumei@mail.com','sign':0,'event_id':1}
 
-    db.clear(table_name)
-    db.insert(table_name, data)
+    #db.clear(table_name)
+    #db.insert(table_name, data)
     db.close()
 
 
