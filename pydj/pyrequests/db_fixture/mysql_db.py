@@ -1,15 +1,9 @@
 import pymysql.cursors
 import os
-<<<<<<< HEAD
 import ConfigParser as cparser
 
 #======== Reading db_config.ini setting ===========
 '''
-=======
-import configparser as cparser
-
-#======== Reading db_config.ini setting ===========
->>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
 base_dir = str(os.path.dirname(os.path.dirname(__file__)))
 #base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/db_config.ini"
@@ -22,31 +16,18 @@ port = cf.get("mysqlconf", "port")
 db = cf.get("mysqlconf", "db_name")
 user = cf.get("mysqlconf", "user")
 password = cf.get("mysqlconf", "password")
-<<<<<<< HEAD
 '''
 # ======== MySql base operating ===================
 class DB(object):
-=======
-
-# ======== MySql base operating ===================
-class DB:
->>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
 
     def __init__(self):
         try:
             #connect to the database
-<<<<<<< HEAD
             self.connection = pymysql.connect(host='127.0.0.1',
                                               user='root',
                                               password='12345678',
                                               db='pyguest',
                                               port=3306,
-=======
-            self.connection = pymysql.connect(host=host,
-                                              user=user,
-                                              password=password,
-                                              db=db,
->>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
                                               charset='utf8mb4',
                                               cursorclass=pymysql.cursors.DictCursor)
         except pymysql.err.OperationalError as e:
@@ -64,13 +45,8 @@ class DB:
             table_data[key] = "'"+str(table_data[key])+"'"
         key = ','.join(table_data.keys())
         value = ','.join(table_data.values())
-<<<<<<< HEAD
         real_sql = "INSERT INTO " + table_name + "(" + key + ") VALUES (" + value + ")"
         print(real_sql)
-=======
-        real_sql = "INSERT INTO" + table_name + "(" + key + ") VALUES (" + value + ")"
-
->>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
         with self.connection.cursor() as cursor:
             cursor.execute(real_sql)
 
@@ -79,11 +55,7 @@ class DB:
         def close(self):
             self.connection.close()
 
-<<<<<<< HEAD
 if __name__ == '__main__':
-=======
-if __main__ == '__main__':
->>>>>>> a05751e3bc37e838995c10523bab43aabcfef2cd
 
     db = DB()
     table_name = "sign_event"
