@@ -5,11 +5,11 @@ from mysql_db import DB
 #create data
 datas = {
     'sign_event':[
-        {'id':1,'name':'fullhouse','limit':2000,'status':1,'address':'shanghai101','start_time':'2017-10-10 14:00:00'},
-        {'id':2,'name':'filling','limit':500,'status':1,'address':'beijing102','start_time':'2017-10-10 14:00:00'},
-        {'id':3,'name':'nini','limit':400,'status':0,'address':'bjstation','start_time':'2018-10-10 14:00:00'},
-        {'id':4,'name':'dibai','limit':100,'status':1,'address':'xixiyuan','start_time':'2017-10-10 14:00:00'},
-        {'id':5,'name':'exhibition','limit':300,'status':1,'address':'habayuan','start_time':'2017-10-10 14:00:00'},
+        {'id':1,'name':'fullhouse','`limit`':2000,'status':1,'address':'shanghai101','start_time':'2017-10-10 14:00:00'},
+        {'id':2,'name':'filling','`limit`':500,'status':1,'address':'beijing102','start_time':'2017-10-10 14:00:00'},
+        {'id':3,'name':'nini','`limit`':400,'status':0,'address':'bjstation','start_time':'2018-10-10 14:00:00'},
+        {'id':4,'name':'dibai','`limit`':100,'status':1,'address':'xixiyuan','start_time':'2017-10-10 14:00:00'},
+        {'id':5,'name':'exhibition','`limit`':300,'status':1,'address':'habayuan','start_time':'2017-10-10 14:00:00'},
     ],
     'sign_guest':[
         {'id':1,'realname':'sgirl','phone':15811507610,'email':'silygirl@mail.com','sign':0,'event_id':1},
