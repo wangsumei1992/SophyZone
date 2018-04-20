@@ -8,14 +8,14 @@ class GetEventListTest(unittest.TestCase):
 
     def test_get_event_null(self):
         r = requests.get(self.url, params={'eid':''})
-        result = r.json()
+        self.result = r.json()
         print(result)
         self.assertEqual(result['status'], 10021)
         self.assertEqual(result['message'], "parameter error")
 
     def test_get_event_success(self):
         r = requests.get(self.url, params={'eid':'3'})
-        result = r.json()
+        self.result = r.json()
         self.assertEqual(result['status'], 200)
         self.assertEqual(result['message'], "success")
         self.assertEqual(result['data']['name'], "nini")

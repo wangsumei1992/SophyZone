@@ -4,7 +4,7 @@ sys.path.append('./interface')
 sys.path.append('./db_fixture')
 from HTMLTestRunner import HTMLTestRunner
 import unittest
-from db_fixture import test_data
+import test_data
 
 #指定测试用例为当前文件夹下的interface目录
 test_dir = './interface'
