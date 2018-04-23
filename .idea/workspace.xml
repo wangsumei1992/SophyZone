@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8bbc9a4-bff1-4a08-ad34-8c936ef5287f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pydj/guest/sign/views_if_sec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydj/guest/sign/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydj/guest/sign/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,62 +16,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/db_fixture/test_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydj/guest/guest/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_guest_list_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/get_guest_list_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding>
-                <element signature="e#14#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_guest_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/add_guest_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#14#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pydj/guest/sign/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_event_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/add_event_test.py">
+      <file leaf-file-name="views_if_sec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydj/guest/sign/views_if_sec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+            <state relative-caret-position="718">
+              <caret line="68" column="85" lean-forward="true" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
+              <folding>
+                <element signature="e#14#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_guest_list_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/get_guest_list_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
@@ -76,42 +52,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/HTMLTestRunner.py">
+      <file leaf-file-name="views_if.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydj/guest/sign/views_if.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql_db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/db_fixture/mysql_db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="25">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
-                <element signature="e#14#36#0" expanded="true" />
+                <element signature="e#14#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydj/pyrequests/run_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
       <find>htmltestrunn</find>
+      <find>get_guest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,6 +98,8 @@
         <option value="$PROJECT_DIR$/pydj/pyrequests/db_fixture/test_data.py" />
         <option value="$PROJECT_DIR$/pydj/pyrequests/interface/add_guest_test.py" />
         <option value="$PROJECT_DIR$/pydj/pyrequests/interface/get_guest_list_test.py" />
+        <option value="$PROJECT_DIR$/pydj/guest/sign/views_if_sec.py" />
+        <option value="$PROJECT_DIR$/pydj/guest/sign/urls.py" />
       </list>
     </option>
   </component>
@@ -146,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,11 +146,17 @@
               <item name="pydj" type="462c0819:PsiDirectoryNode" />
               <item name="pyrequests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mydjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydjango" type="462c0819:PsiDirectoryNode" />
+              <item name="pydj" type="462c0819:PsiDirectoryNode" />
+              <item name="pyrequests" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.add_guest_test">
+  <component name="RunManager" selected="Python.urls">
     <configuration name="add_guest_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mydjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,31 +219,41 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for add_event_test.AddEventTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mydjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pydj/pyrequests/interface" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pydj/guest/sign" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;add_event_test.AddEventTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pydj/guest/sign/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for add_event_test.AddEventTest.test_add_event_data_type_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="views_if_sec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mydjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pydj/pyrequests/interface" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pydj/guest/sign" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;add_event_test.AddEventTest.test_add_event_data_type_error&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pydj/guest/sign/views_if_sec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="Unittests in get_guest_list_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mydjango" />
@@ -285,18 +270,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.add_guest_test" />
-      <item itemvalue="Python tests.Unittests for add_event_test.AddEventTest" />
-      <item itemvalue="Python tests.Unittests for add_event_test.AddEventTest.test_add_event_data_type_error" />
       <item itemvalue="Python tests.Unittests in get_guest_list_test.py" />
       <item itemvalue="Python.test_data" />
+      <item itemvalue="Python.urls" />
+      <item itemvalue="Python.views_if_sec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.urls" />
+        <item itemvalue="Python.views_if_sec" />
         <item itemvalue="Python.add_guest_test" />
         <item itemvalue="Python.test_data" />
         <item itemvalue="Python tests.Unittests in get_guest_list_test.py" />
-        <item itemvalue="Python tests.Unittests for add_event_test.AddEventTest.test_add_event_data_type_error" />
-        <item itemvalue="Python tests.Unittests for add_event_test.AddEventTest" />
       </list>
     </recent_temporary>
   </component>
@@ -476,15 +461,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19283456" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19283456" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32934782" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50421494" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49578503" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32717392" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.27995643" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49739778" weight="0.3191721" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49739778" weight="0.3093682" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -508,33 +494,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add _test.py" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/add_event_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydj/pyrequests/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydj/pyrequests/db_fixture/mysql_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#14#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydj/pyrequests/run_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -798,20 +757,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/requests_test.py" />
-    <entry file="file://$PROJECT_DIR$/pydj/guest/sign/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydj/guest/sign/views_if.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydj/pyrequests/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2625">
@@ -843,12 +788,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydj/guest/sign/urls.py">
+    <entry file="file://$PROJECT_DIR$/pydj/guest/guest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="25">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydj/pyrequests/db_fixture/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydj/guest/guest/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/add_event_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -860,36 +818,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/get_guest_list_test.py">
+    <entry file="file://$PROJECT_DIR$/pydj/guest/sign/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="-1150">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#14#29#0" expanded="true" />
+            <element signature="e#14#69#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydj/guest/guest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydj/pyrequests/db_fixture/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/add_guest_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="818">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#14#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydj/guest/sign/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydj/guest/sign/views_if.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydj/guest/sign/views_if_sec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="68" column="85" lean-forward="true" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
+          <folding>
+            <element signature="e#14#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydj/pyrequests/interface/get_guest_list_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
