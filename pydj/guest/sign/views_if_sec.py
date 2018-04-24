@@ -9,13 +9,18 @@ from django.core.exceptions import ValidationError, ObjectDoesNotExist
 
 #用户认证
 def user_auth(request):
-    get_http_auth = request.META.get('HTTP_AUTHORIZATION',b'')
-    auth = get_http_auth.split()
+    get_http_auth = request.META.get('HTTP_AUTHORIZATION',b'') #将输入的用户名密码进行加密
+    print(get_http_auth)
+    auth = get_http_auth.split() #分割成列表，两个元素
+    print(auth)
     try:
-        auth_parts =  base64.b64decode(auth[1]).decode('utf-8').partition(":")
+        auth_parts = base64.b64decode(auth[1]).decode('utf-8').partition(":")
+        print(auth_parts)
     except IndexError:
         return "null"
     userid, password = auth_parts[0], auth_parts[2]
+    print(userid)
+    print(password)
     user = django_auth.authenticate(username=userid, password=password)
     if user is not None and user.is_active:
         django_auth.login(request, user)
