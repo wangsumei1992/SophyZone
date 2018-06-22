@@ -86,7 +86,7 @@ def user_sign(request):
     server_time = str(now_time).split('.')[0]
     #获取时间差
     time_difference = int(server_time) - int(client_time)
-    if time_difference >= 60 :
+    if time_difference >= 60:
         return "timeout"
 
     #签名检查
